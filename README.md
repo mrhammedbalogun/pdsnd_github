@@ -5,10 +5,10 @@ Project file created on 15/04/2021 <br>
 README file created on 15/05/2021 
 
 ### Project Title
-Bikeshare Data Report
+US Bikeshare Data Report
 
 ### Description
-This application let you filter data of bikeshare company. You can filter to see already processed data or raw data.
+This application let you filter data of some US bikeshare company. You can filter to see already processed data or raw data.
 
 ### Files used
 chicago.csv<br>
