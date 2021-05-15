@@ -22,7 +22,7 @@ def get_filters():
         city = input("Please choose a city in the right format. Eg chicago, new york city or washington: ")
 
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february, march... , june)
     month = input("Please choose a month. Eg all, january, february, ... , june: ").lower()
     while month not in ["all", "january", "february", "march", "april", "may", "june"]:
         city = input("Please choose a month in the right format. Eg all, january, february, march, april, may, june: ")
