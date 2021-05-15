@@ -189,8 +189,8 @@ def user_stats(df):
 
 def display_data(df):
     
-    raw_data_input = input("\nYou have selected to see individual raw data? Enter 'yes' or 'no'\n").strip().lower()    
-    if raw_data_input in ("yes", "y"):
+    raw_data_input_data = input("\nYou have selected to see individual raw data? Enter 'yes' or 'no'\n").strip().lower()    
+    if raw_data_input_data in ("yes", "y"):
         i = 0
 
         while True: 
