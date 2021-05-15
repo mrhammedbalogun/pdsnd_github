@@ -189,8 +189,8 @@ def user_stats(df):
 
 def display_data(df):
     
-    raw_data_input = input("\nYou have selected to see individual raw data? Enter 'yes' or 'no'\n").strip().lower()    
-    if raw_data_input in ("yes", "y"):
+    raw_data_input_data = input("\nYou have selected to see individual raw data? Enter 'yes' or 'no'\n").strip().lower()    
+    if raw_data_input_data in ("yes", "y"):
         i = 0
 
         while True: 
@@ -225,7 +225,7 @@ def main():
                 break
                 
             elif select_data == 'pd':
-                process_data = input("\nYou have selected to see PROCESSED DATA, which includes:\n\n\n- Time Statistics\n- Station Statistics\n- Trip Duration Statistics\n- Users Statistics\n\nEnter 'yes' to proceed, or 'no' to go back.\n\n\n>").strip().lower()    
+                process_data = input("\nYou have selected to see PROCESSED DATA, which includes:\n\n\n- Time Statistics Data\n- Station Statistics Data\n- Trip Duration Statistics Data\n- Users Statistics Data\n\nEnter 'yes' to proceed, or 'no' to go back.\n\n\n>").strip().lower()    
                 if process_data in ("yes", "y"):
                 
                     time_stats(df)
